@@ -1,0 +1,79 @@
+#page-termsofservice {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+
+#page-termsofservice {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 980px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 2.5%;
+}
+
+#page-termsofservice #logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 120px;
+}
+
+
+#page-termsofservice main {
+    width: 400px;
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*#page-termsofservice main p{
+    border: 1px solid rgba(217, 217, 217, 0.5);
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 320px;
+    margin-left: 40px;
+}*/
+
+#page-termsofservice main #rodape {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 10px 40px;
+    width: 400px;
+} 
+
+#page-termsofservice main #rodape span {
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    width: 890px;
+}
+
+
+#page-termsofservice main #rodape a {
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+}

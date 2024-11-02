@@ -1,0 +1,224 @@
+#page-home {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+
+#page-home {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 980px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url('../../images/Frame\ 1.svg') no-repeat 90% center;
+    margin-top: 2.5%;
+}
+
+#page-home #logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 120px;
+}
+
+
+#page-home main {
+    width: 400px;
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page-home main h1 {
+    display: flex;
+    margin-left: 40px;
+
+}
+
+#page-home ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    padding: 40px 40px;
+    width: 400px;
+}
+
+#page-home ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*padding: 10px 0px;*/
+    padding: 5px 20px;
+    width: 320px;
+
+    background: rgba(217, 217, 217, 0.05);
+    border: 1px solid rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    transition: background 0.2s;
+}
+
+#page-home ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+    font-size: 15px;
+}
+
+#ion-icon {
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+#page-home ul li:hover {
+    background: rgba(217, 217, 217, 0.3);
+}
+
+#page-home main p{
+    border: 1px solid rgba(217, 217, 217, 0.5);
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 320px;
+    margin-left: 40px;
+}
+#page-home #login {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 40px 40px;
+    width: 400px;
+}
+
+#page-home main #login label {
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+    margin-bottom: 5px;
+    
+}
+
+#page-home main #login #email {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px 20px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+
+    outline: none;
+}
+input::placeholder{
+    font-weight: 500;
+    color: rgb(0, 0, 0 0.2s);
+    font-size: 14px;
+}
+
+#page-home main #login #password {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px 20px;
+
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 10px;
+}
+
+#page-home main #login #button {
+    outline: none;
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px 20px;
+
+    background-color: #ca0000b3;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-size: 500;
+
+    transition: background 0.2s;
+}
+
+#page-home main #login #button:hover {
+    background: #ca0000;
+}
+
+#page-home main #login #esqueceu {
+    /*text-decoration: none;*/
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+}
+
+#page-home main #rodape {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 10px 40px;
+    width: 400px;
+} 
+
+#page-home main #rodape span {
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+}
+
+#page-home main #rodape #Cadastre {
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+}
+
+#page-home main #rodape a {
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+}
