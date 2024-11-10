@@ -43,7 +43,7 @@ function Home() {
             <label htmlFor="#">Password</label>
             <input type="password" id='password' placeholder='Insira sua senha...' />
               <br />
-            <Link to="#" id='button'>Login</Link>
+            <Link to="/today" id='button'>Login</Link>
               <br />
             <Link to="/esqueceu" id='esqueceu'>Esqueceu sua senha?</Link>
               <br />
