@@ -17,22 +17,22 @@ function Home() {
             <br />
           <ul>
             <li>
-              <a href="#">
+              <Link to="#">
                 <IoLogoGoogle id='ion-icon' size={20} color='black'/>
                 Continua com Google
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <IoLogoFacebook id='ion-icon' size={20} color='blue'/>
                 Continua com Facebook
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <IoLogoApple id='ion-icon' size={20} color='black'/>
                 Continua com Apple
-              </a>
+              </Link>
             </li>
           </ul>
             <p></p>
