@@ -2,19 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom"
 
 import '../styles/pages/termsofservice.css';
+import { IoArrowBack } from "react-icons/io5";
 
 import LogoImg from '../images/LOGO LIGHT.svg';
 
 function termsofservice() {
     return (
-        <div id='page-termsofservice'>
-            <div>
-              <Link to="/">
-                <img id='logo' src={LogoImg} alt="Cloud To Do" /> 
-              </Link>
-        <main>
-            <p></p>
+    <div id='page-termsofservice'>
+      <div>
+          <Link to="/">
+            <img id='logo' src={LogoImg} alt="Cloud To Do" /> 
+          </Link>
 
+          <Link to="/">
+            <IoArrowBack id="back" size={28} color='black'/>
+          </Link>
+         <main>
+          
           <div id='rodape'>
             <span>
                 <h1>Termos de Serviço</h1> 

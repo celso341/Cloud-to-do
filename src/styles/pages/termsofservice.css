@@ -34,6 +34,16 @@
     margin-left: 120px;
 }
 
+#page-termsofservice #back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 980px;
+    margin-top: -40px;
+}
+
 
 #page-termsofservice main {
     width: 400px;
